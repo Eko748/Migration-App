@@ -86,6 +86,7 @@ return new class extends Migration
             $table->string('ch_pembayaran')->nullable();
             $table->text('respon_pembayaran')->nullable();
             $table->string('klasifikasi_jalan')->nullable();
+            $table->string('klasifikasi_konsultan')->nullable();
             $table->string('p')->nullable();
             $table->string('x')->nullable();
             $table->string('y')->nullable();
