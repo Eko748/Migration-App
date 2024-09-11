@@ -11,18 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('andalalin_diskusi_absen', function (Blueprint $table) {
+        Schema::create('sk_penyusun', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('andalalin_diskusi_id')->nullable();
-            $table->foreign('andalalin_diskusi_id')->references('id')->on('andalalin_diskusi')->onDelete('cascade');
-            $table->string('instance')->nullable();
             $table->string('nama')->nullable();
+            $table->string('instansi')->nullable();
+            $table->string('domisili')->nullable();
+            $table->string('no_telp')->nullable();
             $table->string('email')->nullable();
-            $table->string('phone')->nullable();
-            $table->string('posisi')->nullable();
-            $table->tinyInteger('konfirmasi')->nullable();
-            $table->timestamp('absen')->nullable();
-            $table->string('email_terkirim')->nullable();
+            $table->string('no_registrasi_kompetensi')->nullable();
+            $table->string('klasifikasi')->nullable();
+            $table->string('no_sertifikat')->nullable();
             $table->string('updated_by')->nullable();
             $table->string('created_by')->nullable();
             $table->string('deleted_by')->nullable();
@@ -36,6 +34,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('andalalin_diskusi_absen');
+        Schema::dropIfExists('sk_penyusun');
     }
 };
