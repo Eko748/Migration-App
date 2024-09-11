@@ -11,10 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('level', function (Blueprint $table) {
+        Schema::create('m_kategori', function (Blueprint $table) {
             $table->id();
+            $table->integer('parent_id')->nullable();
+            $table->integer('bangkitan_id')->nullable();
             $table->string('nama')->nullable();
-            $table->string('keterangan')->nullable();
+            $table->string('path')->nullable();
+            $table->string('harga')->nullable();
             $table->string('updated_by')->nullable();
             $table->string('created_by')->nullable();
             $table->string('deleted_by')->nullable();
@@ -28,6 +31,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('level');
+        Schema::dropIfExists('m_kategori');
     }
 };

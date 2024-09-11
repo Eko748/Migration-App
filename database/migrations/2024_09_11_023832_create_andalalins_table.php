@@ -64,11 +64,11 @@ return new class extends Migration
             $table->string('final_surat_file')->nullable();
             $table->string('draft_final_surat_file')->nullable();
             $table->text('area')->nullable();
-            $table->date('tanggal_pembayaran')->nullable(); 
+            $table->date('tanggal_pembayaran')->nullable();
             $table->string('no_surat_aplikasi')->nullable();
             $table->date('tanggal_surat_aplikasi')->nullable();
             $table->string('promisory_note_no')->nullable();
-            $table->date('promisory_note_date')->nullable(); 
+            $table->date('promisory_note_date')->nullable();
             $table->string('verifiikator_awal')->nullable();
             $table->string('verifikator_akhir')->nullable();
             $table->string('kasubdit')->nullable();
