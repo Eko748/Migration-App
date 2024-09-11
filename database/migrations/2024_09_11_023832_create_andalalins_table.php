@@ -12,7 +12,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('andalalins', function (Blueprint $table) {
+        Schema::create('andalalin', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('konsultan_id')->nullable();
             $table->unsignedBigInteger('proyek_id')->nullable();
@@ -59,7 +59,6 @@ return new class extends Migration
             $table->string('status')->nullable();
             $table->text('catatan_pengajuan')->nullable();
             $table->string('verivikasi_pengajuan')->nullable();
-            $table->string('updated_oleh')->nullable();
             $table->string('proyek_regency')->nullable();
             $table->string('draft_upload')->nullable();
             $table->string('final_surat_file')->nullable();
@@ -102,6 +101,9 @@ return new class extends Migration
             $table->text('nama_doc_pendukung')->nullable();
             $table->text('judul_doc_pendukung')->nullable();
             $table->text('verif_kapasitas_riil')->nullable();
+            $table->string('updated_by')->nullable();
+            $table->string('created_by')->nullable();
+            $table->string('deleted_by')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
