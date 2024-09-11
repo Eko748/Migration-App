@@ -43,7 +43,7 @@ return new class extends Migration
             $table->string('kapasitas')->nullable();
             $table->string('nama_proyek')->nullable();
             $table->string('alamat_proyek')->nullable();
-            $table->string('privinsi_proyek')->nullable();
+            $table->string('provinsi_proyek')->nullable();
             $table->string('wilayah')->nullable();
             $table->string('latitude')->nullable();
             $table->string('longitude')->nullable();
