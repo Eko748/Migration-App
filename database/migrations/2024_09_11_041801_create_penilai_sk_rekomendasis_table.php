@@ -22,11 +22,11 @@ return new class extends Migration
             $table->string('penilai_email')->nullable();
             $table->string('penilai_nama_instansi')->nullable();
             $table->string('penilai_no_sertifikasi')->nullable();
-            $table->timestamps();
-            $table->softDeletes();
             $table->string('created_by')->nullable();
             $table->string('updated_by')->nullable();
             $table->string('deleted_by')->nullable();
+            $table->timestamps();
+            $table->softDeletes();
         });
     }
 
