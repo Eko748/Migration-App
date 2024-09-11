@@ -11,13 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('akses', function (Blueprint $table) {
+        Schema::create('m_hari_libur', function (Blueprint $table) {
             $table->id();
-            $table->string('nama')->nullable();
-            $table->longText('kategori')->nullable();
-            $table->string('kode');
-            $table->string('created_by')->nullable();
+            $table->timestamp('waktu_mulai')->nullable();
+            $table->timestamp('waktu_akhir')->nullable();
+            $table->string('catatan')->nullable();
             $table->string('updated_by')->nullable();
+            $table->string('created_by')->nullable();
             $table->string('deleted_by')->nullable();
             $table->softDeletes();
             $table->timestamps();
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('akses');
+        Schema::dropIfExists('m_hari_libur');
     }
 };
