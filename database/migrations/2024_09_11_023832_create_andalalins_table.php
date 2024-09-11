@@ -49,7 +49,7 @@ return new class extends Migration
             $table->string('latitude')->nullable();
             $table->string('longitude')->nullable();
             $table->text('polygon')->nullable();
-            $table->string('harga')->nullable();
+            $table->decimal('harga',10, 2)->nullable();
             $table->string('kode_biling')->nullable();
             $table->tinyInteger('pengajuan_kode_biling')->default(0)->nullable();
             $table->timestamp('pembayaran_kadaluarsa')->default(DB::raw('CURRENT_TIMESTAMP'))->nullable();
