@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('andalalin_docs', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('andalalin_id')->nullable();
+            $table->unsignedBigInteger('ref_id')->nullable();
             $table->foreign('andalalin_id')->references('id')->on('andalalin')->onDelete('cascade');
             $table->string('nama')->nullable();
             $table->text('nama_file')->nullable();
