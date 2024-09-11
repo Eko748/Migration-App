@@ -11,17 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('perusahaan', function (Blueprint $table) {
+        Schema::create('dokumen_kategori', function (Blueprint $table) {
             $table->id();
-            $table->integer('user_id')->nullable();
-            $table->integer('kabupaten_kota_id')->nullable();
-            $table->string('nama_perusahaan')->nullable();
-            $table->string('telepon')->nullable();
-            $table->string('alamat_perusahaan')->nullable();
-            $table->string('penanggung_jawab')->nullable();
-            $table->string('jabatan')->nullable();
-            $table->string('no_npwp_perusahaan')->nullable();
-            $table->string('email')->nullable();
+            $table->integer('kategori_id')->nullable();
+            $table->integer('dokumen_id')->nullable();
+            $table->string('nama')->nullable();
             $table->string('created_by')->nullable();
             $table->string('updated_by')->nullable();
             $table->string('deleted_by')->nullable();
@@ -35,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('perusahaan');
+        Schema::dropIfExists('dokumen_kategori');
     }
 };
