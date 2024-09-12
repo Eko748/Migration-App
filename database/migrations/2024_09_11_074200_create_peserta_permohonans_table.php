@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('jadwal_sertifikasi_id')->nullable();
             $table->string('nomor_permohonan')->nullable();
             $table->string('jenis_pengajuan', 1)->nullable();
-            $table->string('klarifikasi_sertifikasi', 1)->nullable();
+            $table->string('klasifikasi_sertifikasi', 1)->nullable();
             $table->string('is_berkas_lengkap', 1)->nullable();
             $table->string('is_berkas_valid', 1)->nullable();
             $table->string('is_peserta', 1)->nullable();

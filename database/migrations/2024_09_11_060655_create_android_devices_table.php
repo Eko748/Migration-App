@@ -17,7 +17,7 @@ return new class extends Migration
             $table->foreign('device_id')->references('id')->on('device')->onDelete('cascade');
             $table->string('username')->nullable();
             $table->string('password')->nullable();
-            $table->string('update')->default(DB::raw('CURRENT_TIMESTAMP'))->nullable();
+            $table->string('update')->nullable();
             $table->string('updated_by')->nullable();
             $table->string('created_by')->nullable();
             $table->string('deleted_by')->nullable();
