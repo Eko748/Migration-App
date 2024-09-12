@@ -16,10 +16,10 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('konsultan_id')->nullable();
             $table->unsignedBigInteger('proyek_id')->nullable();
-            $table->unsignedBigInteger('perusahaan_id')->nullable();
-            $table->foreign('konsultan_id')->references('id')->on('konsultan')->onDelete('cascade');
-            $table->foreign('proyek_id')->references('id')->on('proyek')->onDelete('cascade');
-            $table->foreign('perusahaan_id')->references('id')->on('perusahaan')->onDelete('cascade');
+            $table->unsignedBigInteger('company_id')->nullable();
+            // $table->foreign('konsultan_id')->references('id')->on('penyusun')->onDelete('cascade');
+            // $table->foreign('proyek_id')->references('id')->on('proyek')->onDelete('cascade');
+            // $table->foreign('company_id')->references('id')->on('company')->onDelete('cascade');
             $table->string('no_andalalin')->nullable();
             $table->string('klasifikasi_konsultan')->nullable();
             $table->string('no_sert_konsultan')->nullable();
@@ -50,9 +50,9 @@ return new class extends Migration
             $table->string('longitude')->nullable();
             $table->text('polygon')->nullable();
             $table->decimal('harga',10, 2)->nullable();
-            $table->string('kode_biling')->nullable();
-            $table->tinyInteger('pengajuan_kode_biling')->default(0)->nullable();
-            $table->timestamp('pembayaran_kadaluarsa')->default(DB::raw('CURRENT_TIMESTAMP'))->nullable();
+            $table->string('kode_billing')->nullable();
+            $table->tinyInteger('pengajuan_kode_billing')->default(0)->nullable();
+            $table->timestamp('pembayaran_kedaluarsa')->default(null)->nullable();
             $table->string('status_pembayaran')->nullable();
             $table->string('no_final_surat')->nullable();
             $table->text('salinan_surat')->nullable();
@@ -96,7 +96,7 @@ return new class extends Migration
             $table->string('y')->nullable();
             $table->string('h')->nullable();
             $table->string('w')->nullable();
-            $table->timestamp('stamp')->default(DB::raw('CURRENT_TIMESTAMP'))->nullable();
+            $table->timestamp('stamp')->nullable();
             $table->text('doc_pendukung')->nullable();
             $table->text('nama_doc_pendukung')->nullable();
             $table->text('judul_doc_pendukung')->nullable();

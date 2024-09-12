@@ -13,14 +13,14 @@ return new class extends Migration
     {
         Schema::create('proyek', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('perusahaan_id')->nullable();
-            $table->foreign('perusahaan_id')->references('id')->on('perusahaan')->onDelete('cascade');
+            $table->unsignedBigInteger('company_id')->nullable();
+            // $table->foreign('perusahaan_id')->references('id')->on('perusahaan')->onDelete('cascade');
             $table->text('data')->nullable();
             $table->string('updated_by')->nullable();
             $table->string('created_by')->nullable();
             $table->string('deleted_by')->nullable();
-            $table->softDeletes();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

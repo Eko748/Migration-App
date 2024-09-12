@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('andalalin_id')->nullable();
             $table->foreign('andalalin_id')->references('id')->on('andalalin')->onDelete('cascade');
+            $table->string('login')->nullable();
             $table->string('nama')->nullable();
             $table->string('status')->nullable();
             $table->text('detail')->nullable();

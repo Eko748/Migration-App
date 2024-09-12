@@ -14,13 +14,13 @@ return new class extends Migration
         Schema::create('andalalin_recycle_bin', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('konsultan_id')->nullable();
-            $table->foreign('konsultan_id')->references('id')->on('konsultan')->onDelete('cascade');
-            $table->unsignedBigInteger('perusahaan_id')->nullable();
-            $table->foreign('perusahaan_id')->references('id')->on('perusahaan')->onDelete('cascade');
+            // $table->foreign('konsultan_id')->references('id')->on('konsultan')->onDelete('cascade');
+            $table->unsignedBigInteger('company_id')->nullable();
+            // $table->foreign('perusahaan_id')->references('id')->on('perusahaan')->onDelete('cascade');
             $table->unsignedBigInteger('proyek_id')->nullable();
-            $table->foreign('proyek_id')->references('id')->on('proyek')->onDelete('cascade');
+            // $table->foreign('proyek_id')->references('id')->on('proyek')->onDelete('cascade');
             $table->unsignedBigInteger('andalalin_id')->nullable();
-            $table->foreign('andalalin_id')->references('id')->on('andalalin')->onDelete('cascade');
+            // $table->foreign('andalalin_id')->references('id')->on('andalalin')->onDelete('cascade');
             $table->text('catatan_hapus')->nullable();
             $table->string('no_andalalin')->nullable();
             $table->string('no_sert_konsultan')->nullable();
@@ -49,9 +49,9 @@ return new class extends Migration
             $table->string('longitude')->nullable();
             $table->text('polygon')->nullable();
             $table->decimal('harga', 10,2)->nullable();
-            $table->string('kode_biling')->nullable();
-            $table->tinyInteger('pengajuan_kode_biling')->default(0)->nullable();
-            $table->timestamp('pembayaran_kadaluarsa')->default(DB::raw('CURRENT_TIMESTAMP'))->nullable();
+            $table->string('kode_billing')->nullable();
+            $table->tinyInteger('pengajuan_kode_billing')->default(0)->nullable();
+            $table->timestamp('pembayaran_kedaluarsa')->nullable();
             $table->string('status_pembayaran')->nullable();
             $table->string('no_final_surat')->nullable();
             $table->text('salinan_surat')->nullable();

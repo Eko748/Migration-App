@@ -14,9 +14,9 @@ return new class extends Migration
         Schema::create('andalalin_permohonan', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('konsultan_id')->nullable();
-            $table->foreign('konsultan_id')->references('id')->on('konsultan')->onDelete('cascade');
-            $table->unsignedBigInteger('perusahaan_id')->nullable();
-            $table->foreign('perusahaan_id')->references('id')->on('perusahaan')->onDelete('cascade');
+            // $table->foreign('konsultan_id')->references('id')->on('konsultan')->onDelete('cascade');
+            $table->unsignedBigInteger('company_id')->nullable();
+            // $table->foreign('perusahaan_id')->references('id')->on('perusahaan')->onDelete('cascade');
             $table->string('nib')->nullable();
             $table->string('no_andalalin')->nullable();
             $table->tinyText('nama_proyek')->nullable();
