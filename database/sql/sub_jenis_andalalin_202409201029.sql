@@ -1,0 +1,30 @@
+INSERT INTO siandalan_nasional.sub_jenis_andalalin (jenis_andalalin_id,sub_jenis_andalalin) VALUES
+	 (1,'KEGIATAN PERDAGANGAN'),
+	 (1,'KEGIATAN INDUSTRI'),
+	 (1,'KEGIATAN PERKANTORAN'),
+	 (1,'FASILITAS PENDIDIKAN'),
+	 (1,'FASILITAS PELAYANAN UMUM'),
+	 (1,'STASIUN PENGISIAN BAHAN BAKAR UMUM (SPBU)'),
+	 (1,'HOTEL'),
+	 (1,'GEDUNG PERTEMUAN'),
+	 (1,'RESTAURAN'),
+	 (1,'FASILITAS OLAHRAGA (INDOOR ATAU AUTDOOR)');
+INSERT INTO siandalan_nasional.sub_jenis_andalalin (jenis_andalalin_id,sub_jenis_andalalin) VALUES
+	 (1,'BENGKEL KENDARAAN BERMOTOR'),
+	 (1,'PENCUCIAN MOBIL'),
+	 (2,'PERUMAHAN DAN PERMUKIMAN'),
+	 (2,'RUMAH SUSUN DAN APARTEMEN'),
+	 (2,'ASRAMA'),
+	 (2,'RUKO'),
+	 (3,'AKSES KE DAN DARI JALAN TOL'),
+	 (3,'PELABUHAN'),
+	 (3,'BANDAR UDARA'),
+	 (3,'TERMINAL');
+INSERT INTO siandalan_nasional.sub_jenis_andalalin (jenis_andalalin_id,sub_jenis_andalalin) VALUES
+	 (3,'STASIUN KERETA API'),
+	 (3,'POOL KENDARAAN'),
+	 (3,'FASILITAS PARKIR UNTUK UMUM'),
+	 (3,'JALAN LAYANG (FLYOVER)'),
+	 (3,'LINTAS BAWAH (UNDERPASS)'),
+	 (3,'TEROWONGAN (TUNNEL)'),
+	 (4,'BANGUNAN/PERMUKIMAN/ INFRASTRUKTUR LAINNYA');

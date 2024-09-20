@@ -1,0 +1,8 @@
+INSERT INTO siandalan_nasional.pegawai (nama_lengkap,alamat,email,nip,golongan,file_photo,keterangan,created_at,updated_at) VALUES
+	 ('tricipta int','Jl. Raya Rw. Bambu No.88I, RT.12/RW.6, Ps. Minggu, Kec. Ps. Minggu, Kota Jakarta Selatan','tricipta@gmail.com','19881111 20110110 1 113','Pembina Muda IV','1zxidnch32.png','Jl. Raya Rw. Bambu No.88I, RT.12/RW.6, Ps. Minggu, Kec. Ps. Minggu, Kota Jakarta Selatan','2020-07-16 06:11:04','2020-07-16 06:11:04'),
+	 ('ditlalin','Jl. Medan Merdeka Sel., RT.11/RW.2, Gambir, Kecamatan Gambir','ditlalin@dephub.go.id','19881111 20110110 1 116','Penata Muda IIIa','u128t39vo5.png','Dirjen Perhubungan Darat','2020-07-16 06:29:11','2020-07-16 06:29:11'),
+	 ('admin monev','Wisma Antara lt.6 dan lt.11, Jl. Medan Merdeka Sel., RT.11/RW.2, Gambir, Kecamatan Gambir, Kota Jakarta Pusat','monev@gmail.com','19881111 20110110 1 113','Penata Muda IIIa','5ibp9rqlfe.png','admin yang akan menangani pengimputan kegiatan monev sk andalalin','2020-08-13 01:29:56','2020-08-13 01:29:56'),
+	 ('BPTD Wilayah X Provinsi Jateng & DI. Yogyakarta','Jl. Abdulrahman Saleh No.142.A, Kalibanteng Kidul, Kec. Semarang Bar., Kota Semarang, Jawa Tengah 50183','bptd10@dephub.go.id','197007041993021001','0','ohu6q8m2kd.png',NULL,'2020-08-27 04:18:03','2020-08-27 04:18:03'),
+	 ('Gunawan','Jakarta','bliputunopa92@gmail.com','0','0','78l1a2pyen.jpeg',NULL,'2020-12-15 03:39:29','2020-12-15 03:39:29'),
+	 ('bptdbali','bali','bptdbali@email.com','0','-','vyozw801kj.png','-','2021-02-05 07:58:01','2021-02-05 07:58:01'),
+	 ('Admin Ditlalin','Jakarta','adminditlalin@dephub.go.id','0','-','jpnyx15r6o.png','Admin Ditlalin','2021-03-02 08:10:49','2021-03-02 08:10:49');

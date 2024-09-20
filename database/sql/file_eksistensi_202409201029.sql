@@ -1,0 +1,27 @@
+INSERT INTO siandalan_nasional.file_eksistensi (sk_rekomendasi_id,nama_file,file_eksistensi,created_at,updated_at) VALUES
+	 (1,'FILE EKSISTENSI','1htzbq5y9r.jpg','2020-07-16 07:45:10','2020-07-16 07:45:10'),
+	 (58,'ASISTENSI','4etmj7iwco.pdf','2021-01-14 08:45:52','2021-01-14 08:45:52'),
+	 (129,'BA ASISTENSI','d9t6qo4yvw.pdf','2021-01-16 01:02:51','2021-01-16 01:02:51'),
+	 (156,'BERITA ASISTENSI','w2bnhcrdx6.pdf','2021-01-16 05:32:40','2021-01-16 05:32:40'),
+	 (217,'ASISTENSI','su49pnlfrg.pdf','2021-01-19 06:31:50','2021-01-19 06:31:50'),
+	 (246,'BERITA ASISTENSI','dm1n6ctilh.pdf','2021-01-20 06:19:00','2021-01-20 06:19:00'),
+	 (342,'BERITA ASISTENSI','v4l9zr15km.pdf','2021-01-21 08:37:09','2021-01-21 08:37:09'),
+	 (368,'BA ASISTENSI','7ju5znbdwo.pdf','2021-01-21 14:48:52','2021-01-21 14:48:52'),
+	 (370,'DOKUMEN TEKNIS ANDALALIN','tlkqpb7z8v.pdf','2021-01-21 14:59:02','2021-01-21 14:59:02'),
+	 (370,'GAMBAR TEKNIS ANDALALIN TAHAP-A','tym80c7192.pdf','2021-01-21 15:00:02','2021-01-21 15:00:02');
+INSERT INTO siandalan_nasional.file_eksistensi (sk_rekomendasi_id,nama_file,file_eksistensi,created_at,updated_at) VALUES
+	 (370,'GAMBAR TEKNIS ANDALALIN TAHAP-B','38yx4z5sbt.pdf','2021-01-21 15:00:53','2021-01-21 15:00:53'),
+	 (370,'GAMBAR TEKNIS ANDALALIN TAHAP-C','e7gxvkpm2l.pdf','2021-01-21 15:01:37','2021-01-21 15:01:37'),
+	 (370,'GAMBAR TEKNIS ANDALALIN TAHAP-D','f3ug9x6ev8.pdf','2021-01-21 15:02:15','2021-01-21 15:02:15'),
+	 (370,'GAMBAR TEKNIS ANDALALIN TAHAP-E','1x9vebt6gc.pdf','2021-01-21 15:03:09','2021-01-21 15:03:09'),
+	 (370,'GAMBAR TEKNIS ANDALALIN TAHAP-F','wfy3cmik5p.pdf','2021-01-21 15:03:35','2021-01-21 15:03:35'),
+	 (370,'GAMBAR TEKNIS ANDALALIN TAHAP-G','fxm5pq32zt.pdf','2021-01-21 15:04:37','2021-01-21 15:04:37'),
+	 (370,'GAMBAR TEKNIS ANDALALIN TAHAP-H','2p630qcihb.pdf','2021-01-21 15:05:11','2021-01-21 15:05:11'),
+	 (370,'GAMBAR TEKNIS ANDALALIN TAHAP-I','9rfvwpg51e.pdf','2021-01-21 15:06:17','2021-01-21 15:06:17'),
+	 (370,'GAMBAR TEKNIS ANDALALIN TAHAP-J','4jwzdity8l.pdf','2021-01-21 15:06:54','2021-01-21 15:06:54'),
+	 (371,'DOKUMEN TEKNIS ANDALALIN','bs0913ldyo.pdf','2021-01-21 15:08:50','2021-01-21 15:08:50');
+INSERT INTO siandalan_nasional.file_eksistensi (sk_rekomendasi_id,nama_file,file_eksistensi,created_at,updated_at) VALUES
+	 (371,'GAMBAR TEKNIS ANDALALIN','1iafj5hwx3.pdf','2021-01-21 15:09:40','2021-01-21 15:09:40'),
+	 (377,'BA ASISTENSI','6rtdbg1wfq.pdf','2021-01-22 00:23:28','2021-01-22 00:23:28'),
+	 (393,'BA ASISTENSI','4pao3ivkyc.pdf','2021-01-22 04:51:24','2021-01-22 04:51:24'),
+	 (409,'BA ASISTENSI','eq2kz3if8o.pdf','2021-01-22 09:19:30','2021-01-22 09:19:30');

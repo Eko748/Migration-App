@@ -1,0 +1,20 @@
+INSERT INTO siandalan_nasional.surat_keputusan (peserta_permohonan_id,user_pembuat_sk_id,file_draft_sk,is_setuju,keterangan_revisi,user_approve_sk_id,file_sk,user_ttd_sk_id,updated_at,created_at,tgl_sk,nomor_sertifikat,nomor_sk) VALUES
+	 ('19','3','uploads/penyusun/sk/1632478977_04c913412d46fa3a7186.pdf','1',NULL,'3','sample.pdf',NULL,'2021-09-26 21:19:42','2021-09-24 03:22:57',NULL,NULL,NULL),
+	 ('21','18','uploads/penyusun/sk/1632758995_ff2b8378a7dab7373d91.pdf','1',NULL,'3',NULL,NULL,'2022-06-02 18:23:12','2021-09-27 09:09:56','2022-06-02',NULL,NULL),
+	 ('22','18','uploads/penyusun/sk/1632814493_b80ef8cc4e240bdc2c19.pdf','1',NULL,'18','b6d767d2f8ed5d21a44b0e5886680cb91c01d1153b7ec41a741e3a1c729ac7d5',NULL,'2021-12-07 00:07:37','2021-09-28 00:34:53','2021-12-06',NULL,NULL),
+	 ('31','18','uploads/penyusun/sk/1632819462_02665e7c71e4ca37e708.pdf','1',NULL,'3','Whatsapp Bussines API.pdf',NULL,'2021-09-28 01:59:27','2021-09-28 01:57:42',NULL,NULL,NULL),
+	 ('32','18','uploads/penyusun/sk/1632848002_86ae7fd3fe88b69159e5.pdf','1',NULL,'3',NULL,NULL,'2022-05-30 01:39:27','2021-09-28 09:29:49','2022-05-29',NULL,NULL),
+	 ('36','18','uploads/penyusun/sk/DRAFT-SK-8f14e45fceea167a5a36dedd4bea2543.pdf','1',NULL,'3',NULL,NULL,'2021-10-01 03:12:44','2021-09-29 10:47:37','2021-09-30',NULL,NULL),
+	 ('39','2','uploads/penyusun/sk/DRAFT-SK-d67d8ab4f4c10bf22aa353e27879133c.pdf','1',NULL,'18','d67d8ab4f4c10bf22aa353e27879133c0a28c26718daaacb7286c1529a6ebbb8',NULL,'2021-10-04 08:17:59','2021-10-04 07:13:08','2021-10-03',NULL,NULL),
+	 ('40','3','uploads/penyusun/sk/DRAFT-SK-d645920e395fedad7bbbed0eca3fe2e0.pdf','1',NULL,'3',NULL,NULL,'2022-06-02 18:24:30','2021-10-04 08:35:20','2022-06-02',NULL,NULL),
+	 ('41','2','uploads/penyusun/sk/DRAFT-SK-3416a75f4cea9109507cacd8e2f2aefc.pdf','1',NULL,'18','3416a75f4cea9109507cacd8e2f2aefcb1ee557e839b5dff967f53f966c5882b',NULL,'2021-10-04 09:55:29','2021-10-04 09:41:24','2021-10-03',NULL,NULL),
+	 ('30','18','uploads/penyusun/sk/DRAFT-SK-34173cb38f07f89ddbebc2ac9128303f.pdf',NULL,NULL,NULL,NULL,NULL,'2021-10-16 01:41:57','2021-10-16 01:40:36',NULL,NULL,NULL);
+INSERT INTO siandalan_nasional.surat_keputusan (peserta_permohonan_id,user_pembuat_sk_id,file_draft_sk,is_setuju,keterangan_revisi,user_approve_sk_id,file_sk,user_ttd_sk_id,updated_at,created_at,tgl_sk,nomor_sertifikat,nomor_sk) VALUES
+	 ('48','2','uploads/penyusun/sk/DRAFT-SK-642e92efb79421734881b53e1e1b18b6.pdf','1',NULL,'18','642e92efb79421734881b53e1e1b18b6e3b8aa19ac7d228e877911f2e2d25a58',NULL,'2021-11-25 20:23:09','2021-11-24 09:44:42','2021-11-23',NULL,NULL),
+	 ('50','2','uploads/penyusun/sk/DRAFT-SK-c0c7c76d30bd3dcaefc96f40275bdc0a.pdf','1',NULL,'3',NULL,NULL,'2021-11-26 01:11:28','2021-11-26 01:04:06','2021-11-25',NULL,NULL),
+	 ('56','2','uploads/penyusun/sk/DRAFT-SK-9f61408e3afb633e50cdf1b20de6f466.pdf','1',NULL,'18','9f61408e3afb633e50cdf1b20de6f466ee1cfefe6517f34b31c144747d08562b',NULL,'2021-11-29 20:30:53','2021-11-29 20:25:08','2021-11-29',NULL,NULL),
+	 ('57','2','uploads/penyusun/sk/DRAFT-SK-72b32a1f754ba1c09b3695e0cb6cde7f.pdf','1',NULL,'18','72b32a1f754ba1c09b3695e0cb6cde7ff01e686f2d878eb5dfcd532459ca197c',NULL,'2021-12-02 23:19:27','2021-12-02 22:56:32','2021-12-02',NULL,NULL),
+	 ('60','2','uploads/penyusun/sk/DRAFT-SK-072b030ba126b2f4b2374f342be9ed44.pdf','1',NULL,'5','072b030ba126b2f4b2374f342be9ed44d272bf1220836c54b2700f9f01b1a06b',NULL,'2022-03-12 02:01:52','2022-03-11 23:46:43','2022-03-11',NULL,NULL),
+	 ('70','2','uploads/penyusun/sk/DRAFT-SK-7cbbc409ec990f19c78c75bd1e06f215.pdf','1',NULL,'3',NULL,NULL,'2022-06-02 19:08:46','2022-06-02 01:49:14','2022-06-02','PY0000007003',NULL),
+	 ('69','2','uploads/penyusun/sk/DRAFT-SK-14bfa6bb14875e45bba028a21ed38046.pdf','1',NULL,'3',NULL,NULL,'2022-06-13 03:42:24','2022-06-02 02:02:19','2022-06-13','PY0000006903',NULL),
+	 ('68','2','uploads/penyusun/sk/DRAFT-SK-a3f390d88e4c41f2747bfa2f1b5f87db.pdf','1',NULL,'5','a3f390d88e4c41f2747bfa2f1b5f87db6bdc4926a12e3c3716f46cd03dfa2fbe',NULL,'2022-06-02 19:14:01','2022-06-02 19:02:07','2022-06-02','PY0000006803','KP-DRJD 0021 Tahun 2022');
