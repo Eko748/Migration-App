@@ -1,4 +1,5 @@
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+waktu akhir: time;
+INSERT INTO siandalan_service_db.m_hari_libur (waktu_mulai,waktu_akhir,catatan,created_at,updated_at,deleted_at) VALUES
 	 ('2024-06-10 12:30:44','16:59:59','libur','2021-12-16 00:37:05','2022-07-19 08:55:50','2022-07-19 08:55:50'),
 	 ('2024-06-10 12:30:44','16:59:59','libur','2022-03-16 18:44:08','2022-03-16 18:44:19','2022-03-16 18:44:19'),
 	 ('2024-06-10 12:30:44','23:59:59','Dinas Luar','2022-06-30 04:57:21','2022-11-11 03:12:28','2022-11-11 03:12:28'),
@@ -8,8 +9,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-06-10 12:30:44','23:59:59','Dinas Luar','2022-07-19 08:56:08','2023-01-03 06:30:40','2023-01-03 06:30:40'),
 	 ('2024-06-10 12:30:44','23:59:59','dinas luar','2022-07-20 05:29:35','2023-01-03 06:30:42','2023-01-03 06:30:42'),
 	 ('2024-06-10 12:30:44','23:59:59','libuuuurrrr','2022-08-03 09:52:45','2023-01-03 06:30:43','2023-01-03 06:30:43'),
-	 ('2024-06-10 12:30:44','23:59:59','libuurrrrr','2022-08-09 04:02:01','2023-01-03 06:30:45','2023-01-03 06:30:45');
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-06-10 12:30:44','23:59:59','libuurrrrr','2022-08-09 04:02:01','2023-01-03 06:30:45','2023-01-03 06:30:45'),
 	 ('2024-06-10 12:30:44','23:59:59','libur','2022-11-11 03:13:09','2023-01-03 06:30:34','2023-01-03 06:30:34'),
 	 ('2024-06-10 12:30:44','23:59:59','tes','2023-03-06 07:28:44','2023-03-06 07:28:56','2023-03-06 07:28:56'),
 	 ('2024-06-10 12:30:44','23:59:59','tes','2023-03-06 07:29:07','2023-03-06 07:29:19','2023-03-06 07:29:19'),
@@ -19,8 +19,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-06-10 12:30:44','23:59:59','	LIBUR IDULFITRI','2023-04-18 05:38:01','2023-04-18 05:38:01',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','	LIBUR IDULFITRI','2023-04-18 05:38:14','2023-04-18 05:38:14',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Cuti bersama Hari raya idul Fitri ','2023-04-18 07:50:49','2023-04-18 07:50:49',NULL),
-	 ('2024-06-10 12:30:44','23:59:59','Cuti bersama Hari raya idul Fitri ','2023-04-18 07:51:17','2023-04-18 07:51:17',NULL);
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-06-10 12:30:44','23:59:59','Cuti bersama Hari raya idul Fitri ','2023-04-18 07:51:17','2023-04-18 07:51:17',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Cuti bersama Hari raya idul Fitri ','2023-04-18 07:51:41','2023-04-18 07:51:41',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Cuti bersama Hari raya idul Fitri ','2023-04-18 07:52:14','2023-04-18 07:52:14',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Libur Nasional/Hari Buruh','2023-04-28 07:04:57','2023-04-28 07:04:57',NULL),
@@ -30,8 +29,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-06-10 12:30:44','23:59:59','Hari Lahir Pancasilla ','2023-05-29 02:17:00','2023-05-29 02:17:00',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Cuti Bersama Waisak','2023-05-29 02:17:33','2023-05-29 02:17:33',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Cuti Bersama Idul Adha','2023-06-22 08:13:51','2023-06-22 08:13:51',NULL),
-	 ('2024-06-10 12:30:44','23:59:59','Idul Adha','2023-06-22 08:14:24','2023-06-22 08:14:24',NULL);
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-06-10 12:30:44','23:59:59','Idul Adha','2023-06-22 08:14:24','2023-06-22 08:14:24',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Cuti Bersama Idul Adha','2023-06-22 08:14:51','2023-06-22 08:14:51',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','tahun baru Hijriah','2023-07-12 06:01:32','2023-07-12 06:01:32',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Pelatihan iso','2023-07-12 06:02:26','2023-07-12 06:02:26',NULL),
@@ -41,8 +39,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-06-10 12:30:44','23:59:59','Sertifikat Pengawas (Batam)','2023-07-21 12:06:55','2023-07-27 03:12:47',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Sertifkat Pengawas (Batam)','2023-07-21 12:08:25','2023-07-27 03:13:08',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Hari Kemerdekaan Indonesi ke 78','2023-08-16 08:20:43','2023-08-16 08:20:43',NULL),
-	 ('2024-06-10 12:30:44','23:59:59','Hari Kemerdekaan Indonesia ke 78 ','2023-08-16 08:21:14','2023-08-16 08:21:14',NULL);
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-06-10 12:30:44','23:59:59','Hari Kemerdekaan Indonesia ke 78 ','2023-08-16 08:21:14','2023-08-16 08:21:14',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','kegiatan ISO','2023-08-25 08:32:29','2023-08-25 08:32:29',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Kegiatan ISO','2023-08-25 08:32:50','2023-08-25 08:32:50',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Kegiatan Sertifikasi','2023-08-25 08:33:26','2023-08-25 08:34:06',NULL),
@@ -52,8 +49,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-06-10 12:30:44','23:59:59','-','2023-08-29 06:46:48','2023-09-18 02:08:16','2023-09-18 02:08:16'),
 	 ('2024-06-10 12:30:44','23:59:59','kegiatan bimtek andalalin','2023-09-05 07:55:01','2023-09-05 07:55:01',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','kegiatan bimtek andalalin','2023-09-05 07:55:15','2023-09-05 07:55:15',NULL),
-	 ('2024-06-10 12:30:44','23:59:59','kegiatan bimtek andalalin','2023-09-05 07:55:30','2023-09-05 07:55:30',NULL);
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-06-10 12:30:44','23:59:59','kegiatan bimtek andalalin','2023-09-05 07:55:30','2023-09-05 07:55:30',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','UAT Si Andalan','2023-09-22 05:42:34','2023-09-22 05:42:34',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Maulid nabi muhmmad SAW','2023-09-25 01:32:05','2023-09-25 01:32:05',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','-','2023-09-25 09:29:39','2023-09-25 09:29:39',NULL),
@@ -63,8 +59,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-06-10 12:30:44','23:59:59','Sertifikat Penyusun pengawas penilai Andalalin','2023-10-03 07:04:51','2023-10-03 07:04:51',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Sertifikat Penyusun pengawas penilai Andalalin','2023-10-03 07:04:59','2023-10-03 07:04:59',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Sertifikat Penyusun pengawas penilai Andalalin','2023-10-03 07:05:19','2023-10-03 07:05:19',NULL),
-	 ('2024-06-10 12:30:44','23:59:59','-','2023-10-27 07:51:42','2023-10-27 07:51:42',NULL);
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-06-10 12:30:44','23:59:59','-','2023-10-27 07:51:42','2023-10-27 07:51:42',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Kegiatan Dinas Luar','2023-10-27 07:51:55','2023-11-30 04:05:56',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Kegiatan Dinas Luar','2023-10-27 07:52:19','2023-11-30 04:05:43',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','full','2023-10-30 03:38:45','2023-10-30 03:38:45',NULL),
@@ -74,8 +69,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-06-10 12:30:44','23:59:59','Hari raya natal','2023-12-20 08:12:16','2023-12-20 08:12:16',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','posko tahun baru','2023-12-20 08:12:37','2023-12-20 08:12:37',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','posko tahun baru','2023-12-20 08:12:55','2023-12-20 08:12:55',NULL),
-	 ('2024-06-10 12:30:44','23:59:59','posko tahun baru','2023-12-20 08:13:13','2023-12-20 08:13:13',NULL);
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-06-10 12:30:44','23:59:59','posko tahun baru','2023-12-20 08:13:13','2023-12-20 08:13:13',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','posko tahun baru','2023-12-20 08:13:38','2023-12-20 08:13:38',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','posko tahun baru','2023-12-20 08:13:52','2023-12-20 08:13:52',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','posko tahun baru','2023-12-20 08:14:07','2023-12-20 08:14:07',NULL),
@@ -85,8 +79,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-06-10 12:30:44','23:59:59','Hari libur isramiraj','2024-01-31 06:13:02','2024-01-31 06:13:02',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Tahun baru imlek','2024-01-31 06:13:28','2024-01-31 06:13:28',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','tahun baru imlek','2024-01-31 06:13:41','2024-01-31 06:13:41',NULL),
-	 ('2024-06-10 12:30:44','23:59:59','sertifikasi jogja','2024-01-31 06:14:19','2024-01-31 06:14:19',NULL);
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-06-10 12:30:44','23:59:59','sertifikasi jogja','2024-01-31 06:14:19','2024-01-31 06:14:19',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Sertifikasi Jogja','2024-01-31 06:14:33','2024-01-31 06:14:33',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Hari Suci Nyepi Tahun Baru Saka 1946','2024-01-31 06:19:46','2024-01-31 06:19:46',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Wafatnya Isa Almasih','2024-01-31 06:20:07','2024-01-31 06:20:07',NULL),
@@ -96,8 +89,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-06-10 12:30:44','23:59:59','cuti bersama indul fitri','2024-02-12 03:17:12','2024-02-12 03:17:12',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','cuti bersama idul fitri','2024-02-12 03:17:30','2024-02-12 03:17:30',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','cuti bersama idul fitri','2024-02-12 03:17:58','2024-02-12 03:17:58',NULL),
-	 ('2024-06-10 12:30:44','23:59:59','cuti bersama idul fitri','2024-02-12 03:18:17','2024-02-12 03:18:17',NULL);
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-06-10 12:30:44','23:59:59','cuti bersama idul fitri','2024-02-12 03:18:17','2024-02-12 03:18:17',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Hari Buruh Internasional','2024-02-12 03:19:50','2024-02-12 03:19:50',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Kenaikan Isa Almasih','2024-02-12 03:20:12','2024-02-12 03:20:12',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Cuti Bersama Kenaikan Isa Al Masih','2024-02-12 03:20:45','2024-02-12 03:20:45',NULL),
@@ -107,8 +99,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-06-10 12:30:44','23:59:59','Hari Raya Idul Adha 1445 Hijriah','2024-02-12 03:22:30','2024-02-12 03:22:30',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Cuti Bersama Idul Adha 1445 Hijriah','2024-02-12 03:22:52','2024-02-12 03:22:52',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Tahun Baru Islam 1446 Hijriah','2024-02-12 03:23:39','2024-02-12 03:23:39',NULL),
-	 ('2024-06-10 12:30:44','23:59:59','Hari Kemerdekaan RI','2024-02-12 03:24:05','2024-02-12 03:24:05',NULL);
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-06-10 12:30:44','23:59:59','Hari Kemerdekaan RI','2024-02-12 03:24:05','2024-02-12 03:24:05',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Maulid Nabi Muhammad SAW','2024-02-12 03:24:53','2024-02-12 03:24:53',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Hari Raya Natal','2024-02-12 03:25:20','2024-02-12 03:25:20',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','Cuti Bersama Hari Raya Natal','2024-02-12 03:25:42','2024-02-12 03:25:42',NULL),
@@ -118,8 +109,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-06-10 12:30:44','23:59:59','kegiatan sertifikasi pengawas','2024-02-23 02:04:40','2024-02-23 02:04:40',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','kegiatan sertifikasi pengawas','2024-02-23 02:04:46','2024-02-23 02:04:46',NULL),
 	 ('2024-06-10 12:30:44','23:59:59','kegiatan sertifikasi pengawas','2024-02-23 02:04:54','2024-02-23 02:04:54',NULL),
-	 ('2024-06-10 12:30:44','23:59:59','kegiatan sertifikasi pengawas','2024-02-23 02:05:10','2024-02-23 02:05:10',NULL);
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-06-10 12:30:44','23:59:59','kegiatan sertifikasi pengawas','2024-02-23 02:05:10','2024-02-23 02:05:10',NULL),
 	 ('2024-08-20 00:00:00','23:59:59','sudah di pilih di link manual Andalalin','2024-08-19 10:54:21','2024-08-19 10:54:21',NULL),
 	 ('2024-08-21 00:00:00','23:59:59','sudah di pilih di link manual Andalalin','2024-08-19 10:54:29','2024-08-19 10:54:29',NULL),
 	 ('2024-08-22 00:00:00','23:59:59','sudah di pilih di link manual Andalalin','2024-08-19 10:54:37','2024-08-19 10:54:37',NULL),
@@ -129,9 +119,7 @@ INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,up
 	 ('2024-08-28 00:00:00','23:59:59','sudah di pilih di link manual Andalalin','2024-08-19 10:55:04','2024-08-19 10:55:04',NULL),
 	 ('2024-08-29 00:00:00','23:59:59','sudah di pilih di link manual Andalalin','2024-08-19 10:55:12','2024-08-19 10:55:12',NULL),
 	 ('2024-08-30 00:00:00','23:59:59','sudah di pilih di link manual Andalalin','2024-08-19 10:55:18','2024-08-19 10:55:18',NULL),
-	 ('2024-09-02 00:00:00','23:59:59','sudah di pilih di link manual Andalalin','2024-08-19 10:55:29','2024-08-19 10:55:29',NULL);
-INSERT INTO siandalan_nasional.holidays (start_time,end_time,notes,created_at,updated_at,deleted_at) VALUES
+	 ('2024-09-02 00:00:00','23:59:59','sudah di pilih di link manual Andalalin','2024-08-19 10:55:29','2024-08-19 10:55:29',NULL),
 	 ('2024-09-03 00:00:00','23:59:59','sudah di pilih di link manual Andalalin','2024-08-19 10:55:36','2024-08-19 10:55:36',NULL),
 	 ('2024-09-12 00:00:00','23:59:59','ISO Mutu','2024-09-04 12:27:04','2024-09-04 12:27:04',NULL),
-	 ('2024-09-13 00:00:00','23:59:59','ISO Mutu
-','2024-09-04 12:27:15','2024-09-04 12:27:15',NULL);
+	 ('2024-09-13 00:00:00','23:59:59','ISO Mutu','2024-09-04 12:27:15','2024-09-04 12:27:15',NULL);

@@ -1,4 +1,4 @@
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+INSERT INTO siandalan_service_db.m_kategori (parent_id,nama,`path`,created_at,updated_at,deleted_at,harga,bangkitan_id) VALUES
 	 (0,'Pusat Kegiatan','/',NULL,'2022-06-28 08:09:52',NULL,'',0),
 	 (0,'Perumahan dan Permukiman',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (0,'Infrastruktur',NULL,NULL,NULL,NULL,NULL,NULL),
@@ -8,8 +8,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (1,'Kegiatan perkantoran',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (1,'Kegiatan Industri dan pergudangan',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (1,'Fasilitas Pendidikan',NULL,NULL,NULL,NULL,NULL,NULL),
-	 (1,'Fasilitas Pelayanan Umum',NULL,NULL,NULL,NULL,NULL,NULL);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (1,'Fasilitas Pelayanan Umum',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (1,'Stasiun Pengisian Bahan Bakar',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (1,'Hotel',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (1,'Gedung Pertemuan',NULL,NULL,NULL,NULL,NULL,NULL),
@@ -19,8 +18,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (2,'Rumah Susun dan Apartemen',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (2,'Asrama',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (2,'Ruko',NULL,NULL,NULL,NULL,NULL,NULL),
-	 (3,'Akses ke dan dari jalan tol',NULL,NULL,NULL,NULL,NULL,NULL);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (3,'Akses ke dan dari jalan tol',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (3,'Pelabuhan',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (3,'Bandar Udara',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (3,'Terminal',NULL,NULL,NULL,NULL,NULL,NULL),
@@ -30,8 +28,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (3,'Jalan Layang (flyover)','/',NULL,'2022-06-30 08:27:59',NULL,'4800000',3),
 	 (3,'Lintas Bawah (underpass)',NULL,NULL,NULL,NULL,'4800000',3),
 	 (3,'Terowongan (tunnel)',NULL,NULL,NULL,NULL,'4800000',3),
-	 (4,'Kawasan TOD (Transit Oriented Development)',NULL,NULL,NULL,NULL,'4800000',3);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (4,'Kawasan TOD (Transit Oriented Development)',NULL,NULL,NULL,NULL,'4800000',3),
 	 (4,'Kawasan Pariwisata',NULL,NULL,NULL,NULL,'4800000',3),
 	 (4,'Tempat Wisata',NULL,NULL,NULL,NULL,NULL,NULL),
 	 (4,'Rest Area',NULL,NULL,NULL,NULL,NULL,NULL),
@@ -41,8 +38,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (6,'Diatas 3000 m2 luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',3),
 	 (6,'1001 - 3000 m2 luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',2),
 	 (6,'500 m2 - 1000 m2 luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',1),
-	 (7,'Diatas 10.000 m2 luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',3);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (7,'Diatas 10.000 m2 luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',3),
 	 (7,'4.001 m2 - 10.000 m2 luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',2),
 	 (7,'1.000 m2 - 4000 m2 luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',1),
 	 (8,'Diatas 10.000 m2 luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',3),
@@ -52,8 +48,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (9,'Sekolah/Universitas (500 - 1500 siswa)',NULL,NULL,NULL,NULL,'4800000',2),
 	 (10,'Rumah Sakit (Diatas 700 tempat tidur)',NULL,NULL,NULL,NULL,'4800000',3),
 	 (10,'Rumah Sakit (201 - 700 tempat tidur)',NULL,NULL,NULL,NULL,'4800000',2),
-	 (10,'Rumah Sakit (75 - 200 tempat tidur)',NULL,NULL,NULL,NULL,'4800000',1);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (10,'Rumah Sakit (75 - 200 tempat tidur)',NULL,NULL,NULL,NULL,'4800000',1),
 	 (10,'Bank (Diatas 3000 m2 luas lantai bangunan)',NULL,NULL,NULL,NULL,'4800000',3),
 	 (10,'Bank (1001 m2- 3000 m2 luas lantai bangunan)',NULL,NULL,NULL,NULL,'4800000',2),
 	 (10,'Bank (500 m2 - 1000 m2 luas lantai bangunan)',NULL,NULL,NULL,NULL,'4800000',1),
@@ -63,8 +58,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (12,'Diatas 300 kamar',NULL,NULL,NULL,NULL,'4800000',3),
 	 (12,'121- 300 kamar',NULL,NULL,NULL,NULL,'4800000',2),
 	 (12,'75- 120 kamar',NULL,NULL,NULL,NULL,'4800000',1),
-	 (13,'Diatas 3.000 m2 luas lantai bangunan','/',NULL,'2022-10-18 12:00:53',NULL,'4800000',3);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (13,'Diatas 3.000 m2 luas lantai bangunan','/',NULL,'2022-10-18 12:00:53',NULL,'4800000',3),
 	 (13,'1000 m2 - 3000 m2 luas lantai bangunan','/',NULL,'2022-10-18 12:01:21',NULL,'4800000',2),
 	 (14,'Diatas 300 tempat duduk','/',NULL,'2022-10-27 03:40:45',NULL,'4800000',2),
 	 (14,'100 - 300 tempat duduk','/',NULL,'2022-10-27 03:40:14',NULL,'4800000',1),
@@ -74,8 +68,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (16,'Perumahan Sederhana (401 - 1000 unit)','/',NULL,'2022-10-18 11:45:42',NULL,'4800000',2),
 	 (16,'Perumahan Sederhana (150 - 400 unit)','/',NULL,'2022-10-18 11:46:16',NULL,'4800000',1),
 	 (16,'Townhouse/Cluster (Diatas 800 unit)',NULL,NULL,NULL,NULL,'4800000',3),
-	 (16,'Townhouse/Cluster (301 - 800 unit)',NULL,NULL,NULL,NULL,'4800000',2);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (16,'Townhouse/Cluster (301 - 800 unit)',NULL,NULL,NULL,NULL,'4800000',2),
 	 (16,'Townhouse/Cluster (100 - 300 unit)',NULL,NULL,NULL,NULL,'4800000',1),
 	 (17,'Rumah Susun Sederhana (Diatas 800 unit)','/',NULL,'2022-10-18 11:47:01',NULL,'4800000',3),
 	 (17,'Rumah Susun Sederhana (150 - 800 unit)','/',NULL,'2022-10-18 11:47:20',NULL,'4800000',2),
@@ -85,8 +78,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (18,'Asrama (Diatas 700 unit)','/',NULL,'2022-10-18 12:04:32',NULL,'4800000',2),
 	 (18,'Asrama (150 - 700 unit)','/',NULL,'2022-10-18 12:05:03',NULL,'4800000',1),
 	 (19,'Ruko (Luas Lantai Keseluruhan Diatas 5.000 m2)','/',NULL,'2022-10-18 12:05:34',NULL,'4800000',2),
-	 (19,'Ruko (Luas Lantai Keseluruhan 2.000 m2 - 5.000 m2)','/',NULL,'2022-10-18 12:05:41',NULL,'4800000',1);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (19,'Ruko (Luas Lantai Keseluruhan 2.000 m2 - 5.000 m2)','/',NULL,'2022-10-18 12:05:41',NULL,'4800000',1),
 	 (20,'Wajib',NULL,NULL,NULL,NULL,'4800000',3),
 	 (21,'Pelabuhan Utama',NULL,NULL,NULL,NULL,'4800000',3),
 	 (21,'Pelabuhan Pengumpul',NULL,NULL,NULL,NULL,'4800000',3),
@@ -96,8 +88,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (21,'Pelabuhan Khusus (Luas lahan 50.001 m2 - 100.000 m2)',NULL,NULL,NULL,NULL,'4800000',2),
 	 (21,'Pelabuhan Khusus (Luas Lahan Dibawah 50.000 m2)',NULL,NULL,NULL,NULL,'4800000',1),
 	 (21,'Penyeberangan Lintas Propinsi dan/atau antar negara',NULL,NULL,NULL,NULL,'4800000',3),
-	 (21,'Penyeberangan Lintas Kabupaten/Kota',NULL,NULL,NULL,NULL,'4800000',2);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (21,'Penyeberangan Lintas Kabupaten/Kota',NULL,NULL,NULL,NULL,'4800000',2),
 	 (21,'Penyeberangan Lintas dalam Kabupaten/Kota',NULL,NULL,NULL,NULL,'4800000',1),
 	 (22,'Bandar Udara Pengumpul Skala Pelayanan Primer',NULL,NULL,NULL,NULL,'4800000',3),
 	 (22,'Bandar Udara Pengumpul Skala Pelayanan Sekunder',NULL,NULL,NULL,NULL,'4800000',3),
@@ -107,8 +98,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (23,'Terminal Penumpang Tipe B',NULL,NULL,NULL,NULL,'4800000',2),
 	 (23,'Terminal Penumpang Tipe C',NULL,NULL,NULL,NULL,'4800000',1),
 	 (23,'Terminal Angkutan Barang',NULL,NULL,NULL,NULL,'4800000',3),
-	 (23,'Terminal Peti Kemas',NULL,NULL,NULL,NULL,'4800000',3);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (23,'Terminal Peti Kemas',NULL,NULL,NULL,NULL,'4800000',3),
 	 (24,'Stasiun Kereta Api Kelas Besar',NULL,NULL,NULL,NULL,'4800000',3),
 	 (24,'Stasiun Kereta Api Kelas Sedang','/',NULL,'2022-10-18 11:57:41',NULL,'4800000',2),
 	 (24,'Stasiun Kereta Api Kelas Kecil',NULL,NULL,NULL,NULL,'4800000',1),
@@ -118,8 +108,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (32,'Diatas 100.000 m2 Luas Lahan','/',NULL,'2023-02-16 04:02:15',NULL,'4800000',3),
 	 (32,'50.000 m2 - 100.000 m2 Luas Lahan','/',NULL,'2023-02-16 04:01:24',NULL,'4800000',2),
 	 (33,'Rest Area Tipe A',NULL,NULL,NULL,NULL,'4800000',3),
-	 (33,'Rest Area Tipe B',NULL,NULL,NULL,NULL,'4800000',2);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (33,'Rest Area Tipe B',NULL,NULL,NULL,NULL,'4800000',2),
 	 (33,'Rest Area Tipe C','/',NULL,'2022-06-30 04:59:17',NULL,'4800000',1),
 	 (1,'tes','/','2022-03-16 18:45:14','2022-03-16 18:45:26','2022-03-16 18:45:26','12',2),
 	 (8,'Di atas 500.000 m2  luas lantai bangunan','/','2022-10-18 11:35:50','2022-10-18 11:36:18',NULL,'4800000',3),
@@ -129,8 +118,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (15,'1.000 m2 s.d. 5.000 m2 luas lantai bangunan','/','2022-10-18 12:03:22','2022-10-18 12:03:22',NULL,'4800000',1),
 	 (3,'Jembatan','/','2022-10-18 12:07:10','2022-10-18 12:07:43',NULL,'4800000',3),
 	 (20,'Wajib','/','2022-11-08 04:28:25','2022-11-08 04:30:11',NULL,'4800000',2),
-	 (20,'Wajib','/','2022-11-08 04:28:54','2022-11-08 04:30:02',NULL,'4800000',1);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (20,'Wajib','/','2022-11-08 04:28:54','2022-11-08 04:30:02',NULL,'4800000',1),
 	 (6,'Dibawah 500 m2  luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',4),
 	 (7,'Dibawah 1.000 m2  luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',4),
 	 (8,'Dibawah 2500 m2  luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',4),
@@ -140,8 +128,7 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (16,'Townhouse/Cluster (dibawah 100 unit)',NULL,NULL,NULL,NULL,'4800000',4),
 	 (18,'Asrama (dibawah 150 unit)',NULL,NULL,NULL,NULL,'4800000',4),
 	 (17,'Apartement (dibawah 50 unit)',NULL,NULL,NULL,NULL,'4800000',4),
-	 (19,'Ruko (dibawah Luas Lantai Keseluruhan 2.000 m2)',NULL,NULL,NULL,NULL,'4800000',4);
-INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,updated_at,deleted_at,price,bangkitan_id) VALUES
+	 (19,'Ruko (dibawah Luas Lantai Keseluruhan 2.000 m2)',NULL,NULL,NULL,NULL,'4800000',4),
 	 (15,'dibawah 1.000 m2 luas lantai bangunan',NULL,NULL,NULL,NULL,'4800000',4),
 	 (14,'dibawah 100 tempat duduk',NULL,NULL,NULL,NULL,'4800000',4),
 	 (9,'Dibawah 500 Siswa','/','2024-01-04 03:20:44','2024-01-04 03:29:47',NULL,'4800000',4),
@@ -149,3 +136,4 @@ INSERT INTO siandalan_nasional.category (parent_id,name,`path`,created_at,update
 	 (16,'Perumahan sederhana ( dibawah 150 unit )',NULL,NULL,NULL,NULL,'4800000',4),
 	 (13,'dibawah 1000 m2',NULL,NULL,NULL,NULL,'4800000',4),
 	 (5,'Kegiatan yang apabila ternyata diperhitungkan telah menimbulkan kurang dari 100 perjalanan (kendaraan) baru pada jam padat dan/atau menimbulkan rata-rata 700 perjalanan (kendaraan) baru setiap harinya pada jalan yang dipengaruhi oleh adanya bangunan atau permukiman atau infrastruktur yang dibangun atau dikembangkan.',NULL,NULL,NULL,NULL,'4800000',4);
+

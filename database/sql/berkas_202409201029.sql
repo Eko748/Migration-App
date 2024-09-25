@@ -1,4 +1,4 @@
-INSERT INTO siandalan_nasional.berkas (nama_berkas,`type`,keterangan,is_aktif,is_required,updated_at,created_at,deleted_at) VALUES
+INSERT INTO siandalan_service_db.m_berkas (nama,`tipe`,keterangan,is_aktif,is_required,updated_at,created_at,deleted_at) VALUES
 	 ('NPWP','1',NULL,'1','1','2021-09-12 23:39:43','2021-09-12 23:39:45',NULL),
 	 ('Ijazah Terakhir','2','','1','0','2021-10-15 23:05:45','2021-09-12 23:41:46',NULL),
 	 ('Akte Kelahiran','1','','0','1','2021-10-15 23:04:11','2021-09-12 17:15:52',NULL),

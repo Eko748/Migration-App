@@ -1,4 +1,4 @@
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+INSERT INTO siandalan_service_db.regency (province_id,kode_kab_kota,nama,status,created_at,updated_at,deleted_at) VALUES
 	 ('11','01','KABUPATEN SIMEULUE','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','02','KABUPATEN ACEH SINGKIL','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','03','KABUPATEN ACEH SELATAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -8,8 +8,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('11','07','KABUPATEN ACEH BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','08','KABUPATEN ACEH BESAR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','09','KABUPATEN PIDIE','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('11','10','KABUPATEN BIREUEN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('11','10','KABUPATEN BIREUEN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','11','KABUPATEN ACEH UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','12','KABUPATEN ACEH BARAT DAYA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','13','KABUPATEN GAYO LUES','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -19,8 +18,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('11','17','KABUPATEN BENER MERIAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','18','KABUPATEN PIDIE JAYA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','71','KOTA BANDA ACEH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('11','72','KOTA SABANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('11','72','KOTA SABANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','73','KOTA LANGSA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','74','KOTA LHOKSEUMAWE','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('11','75','KOTA SUBULUSSALAM','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -30,8 +28,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('12','04','KABUPATEN TAPANULI TENGAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','05','KABUPATEN TAPANULI UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','06','KABUPATEN TOBA SAMOSIR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('12','07','KABUPATEN LABUHAN BATU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('12','07','KABUPATEN LABUHAN BATU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','08','KABUPATEN ASAHAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','09','KABUPATEN SIMALUNGUN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','10','KABUPATEN DAIRI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -41,8 +38,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('12','14','KABUPATEN NIAS SELATAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','15','KABUPATEN HUMBANG HASUNDUTAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','16','KABUPATEN PAKPAK BHARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('12','17','KABUPATEN SAMOSIR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('12','17','KABUPATEN SAMOSIR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','18','KABUPATEN SERDANG BEDAGAI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','19','KABUPATEN BATU BARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','20','KABUPATEN PADANG LAWAS UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -52,8 +48,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('12','24','KABUPATEN NIAS UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','25','KABUPATEN NIAS BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','71','KOTA SIBOLGA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('12','72','KOTA TANJUNG BALAI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('12','72','KOTA TANJUNG BALAI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','73','KOTA PEMATANG SIANTAR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','74','KOTA TEBING TINGGI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('12','75','KOTA MEDAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -63,8 +58,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('13','01','KABUPATEN KEPULAUAN MENTAWAI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('13','02','KABUPATEN PESISIR SELATAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('13','03','KABUPATEN SOLOK','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('13','04','KABUPATEN SIJUNJUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('13','04','KABUPATEN SIJUNJUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('13','05','KABUPATEN TANAH DATAR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('13','06','KABUPATEN PADANG PARIAMAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('13','07','KABUPATEN AGAM','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -74,8 +68,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('13','11','KABUPATEN DHARMASRAYA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('13','12','KABUPATEN PASAMAN BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('13','71','KOTA PADANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('13','72','KOTA SOLOK','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('13','72','KOTA SOLOK','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('13','73','KOTA SAWAH LUNTO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('13','74','KOTA PADANG PANJANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('13','75','KOTA BUKITTINGGI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -85,8 +78,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('14','02','KABUPATEN INDRAGIRI HULU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('14','03','KABUPATEN INDRAGIRI HILIR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('14','04','KABUPATEN PELALAWAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('14','05','KABUPATEN S I A K','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('14','05','KABUPATEN S I A K','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('14','06','KABUPATEN KAMPAR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('14','07','KABUPATEN ROKAN HULU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('14','08','KABUPATEN BENGKALIS','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -96,8 +88,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('14','73','KOTA D U M A I','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('15','01','KABUPATEN KERINCI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('15','02','KABUPATEN MERANGIN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('15','03','KABUPATEN SAROLANGUN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('15','03','KABUPATEN SAROLANGUN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('15','04','KABUPATEN BATANG HARI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('15','05','KABUPATEN MUARO JAMBI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('15','06','KABUPATEN TANJUNG JABUNG TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -107,8 +98,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('15','71','KOTA JAMBI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('15','72','KOTA SUNGAI PENUH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('16','01','KABUPATEN OGAN KOMERING ULU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('16','02','KABUPATEN OGAN KOMERING ILIR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('16','02','KABUPATEN OGAN KOMERING ILIR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('16','03','KABUPATEN MUARA ENIM','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('16','04','KABUPATEN LAHAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('16','05','KABUPATEN MUSI RAWAS','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -118,8 +108,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('16','09','KABUPATEN OGAN KOMERING ULU TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('16','10','KABUPATEN OGAN ILIR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('16','11','KABUPATEN EMPAT LAWANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('16','12','KABUPATEN PENUKAL ABAB LEMATANG ILIR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('16','12','KABUPATEN PENUKAL ABAB LEMATANG ILIR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('16','13','KABUPATEN MUSI RAWAS UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('16','71','KOTA PALEMBANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('16','72','KOTA PRABUMULIH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -129,8 +118,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('17','02','KABUPATEN REJANG LEBONG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('17','03','KABUPATEN BENGKULU UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('17','04','KABUPATEN KAUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('17','05','KABUPATEN SELUMA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('17','05','KABUPATEN SELUMA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('17','06','KABUPATEN MUKOMUKO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('17','07','KABUPATEN LEBONG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('17','08','KABUPATEN KEPAHIANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -140,8 +128,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('18','02','KABUPATEN TANGGAMUS','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('18','03','KABUPATEN LAMPUNG SELATAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('18','04','KABUPATEN LAMPUNG TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('18','05','KABUPATEN LAMPUNG TENGAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('18','05','KABUPATEN LAMPUNG TENGAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('18','06','KABUPATEN LAMPUNG UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('18','07','KABUPATEN WAY KANAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('18','08','KABUPATEN TULANGBAWANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -151,8 +138,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('18','12','KABUPATEN TULANG BAWANG BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('18','13','KABUPATEN PESISIR BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('18','71','KOTA BANDAR LAMPUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('18','72','KOTA METRO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('18','72','KOTA METRO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('19','01','KABUPATEN BANGKA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('19','02','KABUPATEN BELITUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('19','03','KABUPATEN BANGKA BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -162,8 +148,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('19','71','KOTA PANGKAL PINANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('21','01','KABUPATEN KARIMUN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('21','02','KABUPATEN BINTAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('21','03','KABUPATEN NATUNA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('21','03','KABUPATEN NATUNA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('21','04','KABUPATEN LINGGA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('21','05','KABUPATEN KEPULAUAN ANAMBAS','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('21','72','KOTA TANJUNG PINANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -173,8 +158,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('31','73','KOTA JAKARTA PUSAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('31','74','KOTA JAKARTA BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('31','75','KOTA JAKARTA UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('32','01','KABUPATEN BOGOR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('32','01','KABUPATEN BOGOR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','02','KABUPATEN SUKABUMI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','03','KABUPATEN CIANJUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','04','KABUPATEN BANDUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -184,8 +168,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('32','08','KABUPATEN KUNINGAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','09','KABUPATEN CIREBON','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','10','KABUPATEN MAJALENGKA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('32','11','KABUPATEN SUMEDANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('32','11','KABUPATEN SUMEDANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','12','KABUPATEN INDRAMAYU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','13','KABUPATEN SUBANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','14','KABUPATEN PURWAKARTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -195,8 +178,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('32','18','KABUPATEN PANGANDARAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','71','KOTA BOGOR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','72','KOTA SUKABUMI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('32','73','KOTA BANDUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('32','73','KOTA BANDUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','74','KOTA CIREBON','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','75','KOTA BEKASI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('32','76','KOTA DEPOK','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -206,8 +188,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('33','01','KABUPATEN CILACAP','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','02','KABUPATEN BANYUMAS','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','03','KABUPATEN PURBALINGGA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('33','04','KABUPATEN BANJARNEGARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('33','04','KABUPATEN BANJARNEGARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','05','KABUPATEN KEBUMEN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','06','KABUPATEN PURWOREJO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','07','KABUPATEN WONOSOBO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -217,8 +198,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('33','11','KABUPATEN SUKOHARJO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','12','KABUPATEN WONOGIRI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','13','KABUPATEN KARANGANYAR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('33','14','KABUPATEN SRAGEN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('33','14','KABUPATEN SRAGEN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','15','KABUPATEN GROBOGAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','16','KABUPATEN BLORA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','17','KABUPATEN REMBANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -228,8 +208,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('33','21','KABUPATEN DEMAK','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','22','KABUPATEN SEMARANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','23','KABUPATEN TEMANGGUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('33','24','KABUPATEN KENDAL','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('33','24','KABUPATEN KENDAL','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','25','KABUPATEN BATANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','26','KABUPATEN PEKALONGAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','27','KABUPATEN PEMALANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -239,8 +218,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('33','72','KOTA SURAKARTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','73','KOTA SALATIGA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','74','KOTA SEMARANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('33','75','KOTA PEKALONGAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('33','75','KOTA PEKALONGAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('33','76','KOTA TEGAL','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('34','01','KABUPATEN KULON PROGO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('34','02','KABUPATEN BANTUL','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -250,8 +228,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('35','01','KABUPATEN PACITAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','02','KABUPATEN PONOROGO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','03','KABUPATEN TRENGGALEK','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('35','04','KABUPATEN TULUNGAGUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('35','04','KABUPATEN TULUNGAGUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','05','KABUPATEN BLITAR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','06','KABUPATEN KEDIRI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','07','KABUPATEN MALANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -261,8 +238,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('35','11','KABUPATEN BONDOWOSO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','12','KABUPATEN SITUBONDO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','13','KABUPATEN PROBOLINGGO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('35','14','KABUPATEN PASURUAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('35','14','KABUPATEN PASURUAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','15','KABUPATEN SIDOARJO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','16','KABUPATEN MOJOKERTO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','17','KABUPATEN JOMBANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -272,8 +248,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('35','21','KABUPATEN NGAWI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','22','KABUPATEN BOJONEGORO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','23','KABUPATEN TUBAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('35','24','KABUPATEN LAMONGAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('35','24','KABUPATEN LAMONGAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','25','KABUPATEN GRESIK','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','26','KABUPATEN BANGKALAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','27','KABUPATEN SAMPANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -283,8 +258,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('35','72','KOTA BLITAR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','73','KOTA MALANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','74','KOTA PROBOLINGGO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('35','75','KOTA PASURUAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('35','75','KOTA PASURUAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','76','KOTA MOJOKERTO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','77','KOTA MADIUN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','78','KOTA SURABAYA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -294,8 +268,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('36','03','KABUPATEN TANGERANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('36','04','KABUPATEN SERANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('36','71','KOTA TANGERANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('36','72','KOTA CILEGON','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('36','72','KOTA CILEGON','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('36','73','KOTA SERANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('36','74','KOTA TANGERANG SELATAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('51','01','KABUPATEN JEMBRANA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -305,8 +278,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('51','05','KABUPATEN KLUNGKUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('51','06','KABUPATEN BANGLI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('51','07','KABUPATEN KARANG ASEM','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('51','08','KABUPATEN BULELENG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('51','08','KABUPATEN BULELENG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('51','71','KOTA DENPASAR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('52','01','KABUPATEN LOMBOK BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('52','02','KABUPATEN LOMBOK TENGAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -316,8 +288,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('52','06','KABUPATEN BIMA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('52','07','KABUPATEN SUMBAWA BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('52','08','KABUPATEN LOMBOK UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('52','71','KOTA MATARAM','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('52','71','KOTA MATARAM','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('52','72','KOTA BIMA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','01','KABUPATEN SUMBA BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','02','KABUPATEN SUMBA TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -327,8 +298,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('53','06','KABUPATEN BELU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','07','KABUPATEN ALOR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','08','KABUPATEN LEMBATA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('53','09','KABUPATEN FLORES TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('53','09','KABUPATEN FLORES TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','10','KABUPATEN SIKKA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','11','KABUPATEN ENDE','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','12','KABUPATEN NGADA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -338,8 +308,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('53','16','KABUPATEN SUMBA TENGAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','17','KABUPATEN SUMBA BARAT DAYA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','18','KABUPATEN NAGEKEO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('53','19','KABUPATEN MANGGARAI TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('53','19','KABUPATEN MANGGARAI TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','20','KABUPATEN SABU RAIJUA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','21','KABUPATEN MALAKA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','71','KOTA KUPANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -349,8 +318,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('61','04','KABUPATEN MEMPAWAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('61','05','KABUPATEN SANGGAU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('61','06','KABUPATEN KETAPANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('61','07','KABUPATEN SINTANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('61','07','KABUPATEN SINTANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('61','08','KABUPATEN KAPUAS HULU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('61','09','KABUPATEN SEKADAU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('61','10','KABUPATEN MELAWI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -360,8 +328,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('61','72','KOTA SINGKAWANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('62','01','KABUPATEN KOTAWARINGIN BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('62','02','KABUPATEN KOTAWARINGIN TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('62','03','KABUPATEN KAPUAS','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('62','03','KABUPATEN KAPUAS','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('62','04','KABUPATEN BARITO SELATAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('62','05','KABUPATEN BARITO UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('62','06','KABUPATEN SUKAMARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -371,8 +338,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('62','10','KABUPATEN PULANG PISAU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('62','11','KABUPATEN GUNUNG MAS','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('62','12','KABUPATEN BARITO TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('62','13','KABUPATEN MURUNG RAYA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('62','13','KABUPATEN MURUNG RAYA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('62','71','KOTA PALANGKA RAYA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('63','01','KABUPATEN TANAH LAUT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('63','02','KABUPATEN KOTA BARU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -382,8 +348,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('63','06','KABUPATEN HULU SUNGAI SELATAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('63','07','KABUPATEN HULU SUNGAI TENGAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('63','08','KABUPATEN HULU SUNGAI UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('63','09','KABUPATEN TABALONG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('63','09','KABUPATEN TABALONG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('63','10','KABUPATEN TANAH BUMBU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('63','11','KABUPATEN BALANGAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('63','71','KOTA BANJARMASIN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -393,8 +358,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('64','03','KABUPATEN KUTAI KARTANEGARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('64','04','KABUPATEN KUTAI TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('64','05','KABUPATEN BERAU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('64','09','KABUPATEN PENAJAM PASER UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('64','09','KABUPATEN PENAJAM PASER UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('64','11','KABUPATEN MAHAKAM HULU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('64','71','KOTA BALIKPAPAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('64','72','KOTA SAMARINDA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -404,8 +368,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('65','03','KABUPATEN TANA TIDUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('65','04','KABUPATEN NUNUKAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('65','71','KOTA TARAKAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('71','01','KABUPATEN BOLAANG MONGONDOW','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('71','01','KABUPATEN BOLAANG MONGONDOW','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('71','02','KABUPATEN MINAHASA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('71','03','KABUPATEN KEPULAUAN SANGIHE','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('71','04','KABUPATEN KEPULAUAN TALAUD','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -415,8 +378,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('71','08','KABUPATEN SIAU TAGULANDANG BIARO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('71','09','KABUPATEN MINAHASA TENGGARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('71','10','KABUPATEN BOLAANG MONGONDOW SELATAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('71','11','KABUPATEN BOLAANG MONGONDOW TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('71','11','KABUPATEN BOLAANG MONGONDOW TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('71','71','KOTA MANADO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('71','72','KOTA BITUNG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('71','73','KOTA TOMOHON','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -426,8 +388,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('72','03','KABUPATEN MOROWALI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('72','04','KABUPATEN POSO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('72','05','KABUPATEN DONGGALA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('72','06','KABUPATEN TOLI-TOLI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('72','06','KABUPATEN TOLI-TOLI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('72','07','KABUPATEN BUOL','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('72','08','KABUPATEN PARIGI MOUTONG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('72','09','KABUPATEN TOJO UNA-UNA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -437,8 +398,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('72','71','KOTA PALU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','01','KABUPATEN KEPULAUAN SELAYAR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','02','KABUPATEN BULUKUMBA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('73','03','KABUPATEN BANTAENG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('73','03','KABUPATEN BANTAENG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','04','KABUPATEN JENEPONTO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','05','KABUPATEN TAKALAR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','06','KABUPATEN GOWA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -448,8 +408,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('73','10','KABUPATEN BARRU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','11','KABUPATEN BONE','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','12','KABUPATEN SOPPENG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('73','13','KABUPATEN WAJO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('73','13','KABUPATEN WAJO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','14','KABUPATEN SIDENRENG RAPPANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','15','KABUPATEN PINRANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','16','KABUPATEN ENREKANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -459,8 +418,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('73','25','KABUPATEN LUWU TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','26','KABUPATEN TORAJA UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','71','KOTA MAKASSAR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('73','72','KOTA PAREPARE','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('73','72','KOTA PAREPARE','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('73','73','KOTA PALOPO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('74','01','KABUPATEN BUTON','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('74','02','KABUPATEN MUNA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -470,8 +428,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('74','06','KABUPATEN BOMBANA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('74','07','KABUPATEN WAKATOBI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('74','08','KABUPATEN KOLAKA UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('74','09','KABUPATEN BUTON UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('74','09','KABUPATEN BUTON UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('74','10','KABUPATEN KONAWE UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('74','11','KABUPATEN KOLAKA TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('74','12','KABUPATEN KONAWE KEPULAUAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -481,8 +438,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('74','71','KOTA KENDARI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('74','72','KOTA BAUBAU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('75','01','KABUPATEN BOALEMO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('75','02','KABUPATEN GORONTALO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('75','02','KABUPATEN GORONTALO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('75','03','KABUPATEN POHUWATO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('75','04','KABUPATEN BONE BOLANGO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('75','05','KABUPATEN GORONTALO UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -492,8 +448,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('76','03','KABUPATEN MAMASA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('76','04','KABUPATEN MAMUJU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('76','05','KABUPATEN MAMUJU UTARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('76','06','KABUPATEN MAMUJU TENGAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('76','06','KABUPATEN MAMUJU TENGAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('81','01','KABUPATEN MALUKU TENGGARA BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('81','02','KABUPATEN MALUKU TENGGARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('81','03','KABUPATEN MALUKU TENGAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -503,8 +458,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('81','07','KABUPATEN SERAM BAGIAN TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('81','08','KABUPATEN MALUKU BARAT DAYA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('81','09','KABUPATEN BURU SELATAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('81','71','KOTA AMBON','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('81','71','KOTA AMBON','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('81','72','KOTA TUAL','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('82','01','KABUPATEN HALMAHERA BARAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('82','02','KABUPATEN HALMAHERA TENGAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -514,8 +468,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('82','06','KABUPATEN HALMAHERA TIMUR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('82','07','KABUPATEN PULAU MOROTAI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('82','08','KABUPATEN PULAU TALIABU','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('82','71','KOTA TERNATE','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('82','71','KOTA TERNATE','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('82','72','KOTA TIDORE KEPULAUAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('91','01','KABUPATEN FAKFAK','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('91','02','KABUPATEN KAIMANA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -525,8 +478,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('91','06','KABUPATEN SORONG SELATAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('91','07','KABUPATEN SORONG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('91','08','KABUPATEN RAJA AMPAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('91','09','KABUPATEN TAMBRAUW','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('91','09','KABUPATEN TAMBRAUW','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('91','10','KABUPATEN MAYBRAT','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('91','11','KABUPATEN MANOKWARI SELATAN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('91','12','KABUPATEN PEGUNUNGAN ARFAK','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -536,8 +488,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('94','03','KABUPATEN JAYAPURA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','04','KABUPATEN NABIRE','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','08','KABUPATEN KEPULAUAN YAPEN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('94','09','KABUPATEN BIAK NUMFOR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('94','09','KABUPATEN BIAK NUMFOR','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','10','KABUPATEN PANIAI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','11','KABUPATEN PUNCAK JAYA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','12','KABUPATEN MIMIKA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -547,8 +498,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('94','16','KABUPATEN YAHUKIMO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','17','KABUPATEN PEGUNUNGAN BINTANG','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','18','KABUPATEN TOLIKARA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('94','19','KABUPATEN SARMI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('94','19','KABUPATEN SARMI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','20','KABUPATEN KEEROM','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','26','KABUPATEN WAROPEN','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','27','KABUPATEN SUPIORI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -558,8 +508,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('94','31','KABUPATEN MAMBERAMO TENGAH','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','32','KABUPATEN YALIMO','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','33','KABUPATEN PUNCAK','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('94','34','KABUPATEN DOGIYAI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('94','34','KABUPATEN DOGIYAI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','35','KABUPATEN INTAN JAYA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','36','KABUPATEN DEIYAI','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('94','71','KOTA JAYAPURA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -569,8 +518,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('14','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('15','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('16','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('17','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('17','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('18','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('19','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('21','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -580,8 +528,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('34','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('35','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('36','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('51','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('51','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('52','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('53','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('61','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
@@ -591,8 +538,7 @@ INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,cr
 	 ('65','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('71','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('72','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
-	 ('73','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL);
-INSERT INTO siandalan_nasional.regency (province_id,kode_kab_kota,name,status,created_at,updated_at,deleted_at) VALUES
+	 ('73','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('74','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('75','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
 	 ('76','00','TIDAK ADA KABUPATEN KOTA','A','2021-01-11 12:33:46','2021-01-11 12:33:46',NULL),
