@@ -1,4 +1,4 @@
-INSERT INTO siandalan_nasional.province (name,status,created_at,updated_at,deleted_at) VALUES
+INSERT INTO siandalan_service_db.province (nama,status,created_at,updated_at,deleted_at) VALUES
 	 ('ACEH','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('SUMATERA UTARA','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('SUMATERA BARAT','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
@@ -8,8 +8,7 @@ INSERT INTO siandalan_nasional.province (name,status,created_at,updated_at,delet
 	 ('BENGKULU','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('LAMPUNG','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('KEPULAUAN BANGKA BELITUNG','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
-	 ('KEPULAUAN RIAU','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL);
-INSERT INTO siandalan_nasional.province (name,status,created_at,updated_at,deleted_at) VALUES
+	 ('KEPULAUAN RIAU','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('DKI JAKARTA','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('JAWA BARAT','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('JAWA TENGAH','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
@@ -19,8 +18,7 @@ INSERT INTO siandalan_nasional.province (name,status,created_at,updated_at,delet
 	 ('BALI','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('NUSA TENGGARA BARAT','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('NUSA TENGGARA TIMUR','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
-	 ('KALIMANTAN BARAT','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL);
-INSERT INTO siandalan_nasional.province (name,status,created_at,updated_at,deleted_at) VALUES
+	 ('KALIMANTAN BARAT','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('KALIMANTAN TENGAH','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('KALIMANTAN SELATAN','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('KALIMANTAN TIMUR','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
@@ -30,8 +28,7 @@ INSERT INTO siandalan_nasional.province (name,status,created_at,updated_at,delet
 	 ('SULAWESI SELATAN','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('SULAWESI TENGGARA','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('GORONTALO','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
-	 ('SULAWESI BARAT','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL);
-INSERT INTO siandalan_nasional.province (name,status,created_at,updated_at,deleted_at) VALUES
+	 ('SULAWESI BARAT','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('MALUKU','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('MALUKU UTARA','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
 	 ('PAPUA BARAT','A','2021-01-11 12:33:35','2021-01-11 12:33:35',NULL),
